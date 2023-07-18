@@ -10,6 +10,8 @@ import pgwall_test
 
 logger = logging.getLogger(__name__)
 
+def i_rule(x):
+    print('Value of x ' + str(x))
 
 class PgwalltestRunner(object):
     """
